@@ -7,7 +7,86 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(13, 65, 90);
+  height: 100vh;
+  color: #fff;
+}
+.App .h1{
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.questionPage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(18, 41, 56);
+  color: #fff;
+  text-align: center;
+  width: 55%;
+  height: 70%;
+  border-radius: 10px;
+  box-shadow: 1px 4px 4px #ddd;
+}
+.buttonArea{
+  margin-bottom: 20px;
+
+}
+li{
+  list-style: none;
+  color: rgb(16, 67, 97);
+  font-weight: 600;
+  font-size: large;
+  border: 1px solid rgb(221, 221, 221);
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+li::selection{
+  background-color: red;
+}
+li:hover{
+  color: #fff;
+  background-color: rgb(13, 67, 97);
+}
+
+.reset{
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #fff;
+  color: rgb(16, 67, 97);
+}
+.resetBtn{
+  background-color: rgb(16, 67, 97);
+  color: #fff;
+}
+
+.resetBtn:hover{
+  background-color: #fff;
+  color: rgb(16, 67, 97);
+  border: 2px solid rgb(16, 67, 97);
+}
+
+button{
+  background-color: #fff;
+  color: rgb(13, 65, 90);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: large;
+  margin: 10px;
+}
+
+button:hover{
+  color: #fff;
+  background-color: rgb(13, 65, 90);
 }
