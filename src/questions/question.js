@@ -6,7 +6,6 @@ export const questions = [
         id: 0,
         answer: 'Favour',
         isCorrect: false,
-        color: 'red'
       },
       {
         id: 1,
@@ -17,13 +16,11 @@ export const questions = [
         id: 2,
         answer: 'Philip',
         isCorrect: false,
-        color: 'red'
       },
       {
         id: 3,
         answer: 'Caleb',
         isCorrect: false,
-        color: 'red'
       }
     ]
   },
@@ -34,19 +31,16 @@ export const questions = [
         id: 0,
         answer: 'Gbenga Ashafa',
         isCorrect: false,
-        color: 'red'
       },
       {
         id: 1,
         answer: 'Magnus Abe',
         isCorrect: false,
-        color: 'red'
       },
       {
         id: 2,
         answer: 'Sanwo-Olu',
         isCorrect: false,
-        color: 'red'
       },
       {
         id: 3,
@@ -62,13 +56,11 @@ export const questions = [
         id: 0,
         answer: 'Java',
         isCorrect: false,
-        color: 'red'
       },
       {
         id: 1,
         answer: 'Dart',
         isCorrect: false,
-        color: 'red'
       },
       {
         id: 2,
@@ -79,7 +71,6 @@ export const questions = [
         id: 3,
         answer: 'C++',
         isCorrect: false,
-        color: 'red'
       }
     ]
   },
@@ -90,7 +81,6 @@ export const questions = [
         id: 0,
         answer: 'Typescript',
         isCorrect: false,
-        color: 'red'
       },
       {
         id: 1,
@@ -106,7 +96,6 @@ export const questions = [
         id: 3,
         answer: 'C#',
         isCorrect: false,
-        color: 'red'
       }
     ]
   },
@@ -117,13 +106,11 @@ export const questions = [
         id: 0,
         answer: '37',
         isCorrect: false,
-        color: 'red'
       },
       {
         id: 1,
         answer: '52',
         isCorrect: false,
-        color: 'red'
       },
       {
         id: 2,
@@ -134,7 +121,6 @@ export const questions = [
         id: 3,
         answer: '744',
         isCorrect: false,
-        color: 'red'
       }
     ]
   }

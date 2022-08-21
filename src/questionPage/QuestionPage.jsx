@@ -26,7 +26,7 @@ export const QuestionPage = () => {
 
     }
 
-    const optionClicked = (isCorrect, color) => {
+    const optionClicked = (isCorrect) => {
         if (isCorrect) {
             setScore(score + 1)
         }
