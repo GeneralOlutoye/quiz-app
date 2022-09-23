@@ -1,3 +1,4 @@
+{/*compnent updating question and answer */}
 export const questions = [
   {
     question: '1. Who is the CEO of FindWorka?',
