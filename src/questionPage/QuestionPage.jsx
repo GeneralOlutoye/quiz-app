@@ -16,6 +16,8 @@ export const QuestionPage = () => {
             setCurrentQuestion(currentQuestion - 1)
         }
     }
+    
+    {/*function that sets result to true and goes to the next question*/}
 
     const next = () => {
         if (currentQuestion + 1 < questions.length) {
@@ -25,12 +27,16 @@ export const QuestionPage = () => {
         }
 
     }
+    
+    {/*function that updates the score if option clicked is correct*/}
 
     const optionClicked = (isCorrect) => {
         if (isCorrect) {
             setScore(score + 1)
         }
     }
+    
+    {/*function that resets score and result and current question to default state*/}
 
     const reset = () => {
         setScore(0)
